@@ -1,0 +1,1 @@
+<view class="box"><view class="top">{{num}}</view><view class="but"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['count',['$0'],[[['list','',index,'name']]]]]]]}}" class="{{['btnall',item.classname]}}" bindtap="__e">{{item.name}}</view></block></view></view>
